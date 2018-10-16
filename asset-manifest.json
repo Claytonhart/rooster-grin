@@ -1,7 +1,7 @@
 {
-  "main.css": "/rooster-grin/static/css/main.1ef5ecc9.chunk.css",
-  "main.js": "/rooster-grin/static/js/main.46e7e3cc.chunk.js",
-  "main.js.map": "/rooster-grin/static/js/main.46e7e3cc.chunk.js.map",
+  "main.css": "/rooster-grin/static/css/main.1704c9bd.chunk.css",
+  "main.js": "/rooster-grin/static/js/main.1f0de1dc.chunk.js",
+  "main.js.map": "/rooster-grin/static/js/main.1f0de1dc.chunk.js.map",
   "static/js/1.1ba184a3.chunk.js": "/rooster-grin/static/js/1.1ba184a3.chunk.js",
   "static/js/1.1ba184a3.chunk.js.map": "/rooster-grin/static/js/1.1ba184a3.chunk.js.map",
   "runtime~main.js": "/rooster-grin/static/js/runtime~main.a7cb5b26.js",
@@ -10,10 +10,10 @@
   "static/media/envelope-icon.svg": "/rooster-grin/static/media/envelope-icon.93a2fadf.svg",
   "static/media/img1.jpg": "/rooster-grin/static/media/img1.40b86503.jpg",
   "static/media/img2.jpg": "/rooster-grin/static/media/img2.ce38b545.jpg",
-  "static/media/index.css": "/rooster-grin/static/media/iStock-613672992.5a0e7f6d.jpg",
+  "static/media/index.css": "/rooster-grin/static/media/slanted-gradient-background.ec453b84.svg",
   "static/media/igniter-logo-white.svg": "/rooster-grin/static/media/igniter-logo-white.46c9914b.svg",
-  "static/css/main.1ef5ecc9.chunk.css.map": "/rooster-grin/static/css/main.1ef5ecc9.chunk.css.map",
+  "static/css/main.1704c9bd.chunk.css.map": "/rooster-grin/static/css/main.1704c9bd.chunk.css.map",
   "index.html": "/rooster-grin/index.html",
-  "precache-manifest.e59dc913c721c7570ee9222f94bc2896.js": "/rooster-grin/precache-manifest.e59dc913c721c7570ee9222f94bc2896.js",
+  "precache-manifest.9512701ed43b9115bfab01597606f5c0.js": "/rooster-grin/precache-manifest.9512701ed43b9115bfab01597606f5c0.js",
   "service-worker.js": "/rooster-grin/service-worker.js"
 }
