@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/rooster-grin/static/media/img2.ce38b545.jpg"
   },
   {
-    "revision": "ae8cb117af1866c2a28f4c2737977034",
-    "url": "/rooster-grin/static/media/hero-img.ae8cb117.jpg"
+    "revision": "7683b323b316195bc183b007aaa83fea",
+    "url": "/rooster-grin/static/media/iStock-503300108.7683b323.jpg"
   },
   {
     "revision": "3fd8833d443d826375f146c6d75f2d20",
     "url": "/rooster-grin/static/media/iStock-613672992.3fd8833d.jpg"
   },
   {
-    "revision": "7683b323b316195bc183b007aaa83fea",
-    "url": "/rooster-grin/static/media/iStock-503300108.7683b323.jpg"
+    "revision": "ae8cb117af1866c2a28f4c2737977034",
+    "url": "/rooster-grin/static/media/hero-img.ae8cb117.jpg"
   },
   {
     "revision": "ec453b84afad883c68b83b0ca9a08f0c",
