@@ -12,6 +12,24 @@ body {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif; }
 
+.btn {
+  cursor: pointer;
+  width: 21.5rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  color: #fff;
+  background: linear-gradient(to right, #f36819, #f7931d);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transition: 0.2s all;
+  outline: none; }
+  .btn:active {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    transform: translateY(2px); }
+
 .header {
   height: 6rem;
   width: 100%;
@@ -50,23 +68,6 @@ body {
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 1.5rem; }
-  .hero__button {
-    cursor: pointer;
-    width: 21.5rem;
-    height: 4rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-family: inherit;
-    font-size: 1.6rem;
-    letter-spacing: 2px;
-    color: #fff;
-    background: linear-gradient(to right, #f36819, #f7931d);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    transition: 0.2s all;
-    outline: none; }
-    .hero__button:active {
-      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-      transform: translateY(2px); }
 
 .page-desc {
   width: 60%;
@@ -86,3 +87,100 @@ body {
     padding-left: 3.5rem;
     font-size: 1.4rem;
     line-height: 2rem; }
+
+.personalize {
+  background: url("./assets/slanted-gradient-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25.4rem;
+  display: flex;
+  justify-content: center;
+  position: relative; }
+  .personalize__text {
+    width: 62%;
+    position: absolute;
+    bottom: 15%;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center; }
+
+.cutting-edge {
+  width: 60%;
+  margin: 6rem auto; }
+  .cutting-edge__header {
+    color: #283647;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    text-align: center; }
+    .cutting-edge__header span {
+      font-weight: bold;
+      color: #f36819; }
+    .cutting-edge__header--bottom {
+      margin-top: 10rem; }
+
+.cutting-edge-about {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
+  .cutting-edge-about__desc {
+    width: 50%;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #283647; }
+  .cutting-edge-about__btn-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.cutting-edge-stats {
+  display: flex;
+  justify-content: space-between; }
+
+.cutting-edge-stats-item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  text-align: center;
+  margin-top: 2rem; }
+  .cutting-edge-stats-item__header {
+    font-size: 5.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #283647; }
+  .cutting-edge-stats-item__desc {
+    font-size: 1.6rem;
+    color: #f36819; }
+
+.checkerboard {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem; }
+
+.checkerboard-info {
+  width: 49%;
+  padding: 5rem 10rem; }
+  .checkerboard-info__h3 {
+    font-size: 2.8rem;
+    font-weight: normal;
+    color: #f36819;
+    margin-bottom: 0.5rem; }
+  .checkerboard-info__h4 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: #f7931d;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem; }
+  .checkerboard-info__about {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #283647; }
+
+.checkerboard-image {
+  width: 49%; }
+  .checkerboard-image__img {
+    width: 100%; }
+    .checkerboard-image__img::after {
+      content: "";
+      clear: both;
+      display: table; }

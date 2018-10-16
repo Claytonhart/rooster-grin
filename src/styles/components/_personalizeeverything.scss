@@ -1,0 +1,18 @@
+.personalize {
+  background: url("./assets/slanted-gradient-background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25.4rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  &__text {
+    width: 62%;
+    position: absolute;
+    bottom: 15%;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
