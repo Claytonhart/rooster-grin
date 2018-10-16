@@ -291,3 +291,42 @@ body {
   border-right: 3.5rem solid #283647; }
   .slick-prev::before {
     content: ""; }
+
+.footer {
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  margin-top: 15rem;
+  background: linear-gradient(to right, rgba(247, 104, 28, 0.3), rgba(0, 0, 0, 0.3));
+  color: #283647; }
+
+.footer-container {
+  width: 60%;
+  margin: 0 auto; }
+
+.footer-input-container {
+  display: flex;
+  justify-content: space-between; }
+  .footer-input-container__input {
+    width: 70%;
+    padding: 0.5rem 2rem; }
+
+.footer-about {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between; }
+
+.footer-about-links__header {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  cursor: pointer; }
+
+.footer-about-links p {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+  cursor: pointer; }
+  .footer-about-links p:hover {
+    color: #fff; }

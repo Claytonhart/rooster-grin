@@ -1,0 +1,50 @@
+.footer {
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  margin-top: 15rem;
+  background: linear-gradient(to right, rgba(#f7681c, 0.3), rgba(#000000, 0.3));
+  color: $color-blue-dark;
+}
+
+.footer-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer-input-container {
+  display: flex;
+  justify-content: space-between;
+
+  &__input {
+    width: 70%;
+    padding: 0.5rem 2rem;
+  }
+}
+
+.footer-about {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-about-links {
+  &__header {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  & p {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

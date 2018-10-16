@@ -8,6 +8,7 @@ import CheckerBoard from "./components/CheckerBoard";
 import Modal from "./components/Modal";
 import ModalButton from "./components/ModalButton";
 import Tribute from "./components/Tribute";
+import Footer from "./components/Footer";
 
 import img1 from "./assets/img1.jpg";
 import img2 from "./assets/img2.jpg";
@@ -32,6 +33,7 @@ class App extends Component {
         <CheckerBoard side="right" img={img1} />
         <CheckerBoard side="left" img={img2} />
         <Tribute />
+        <Footer />
         <ModalButton toggleModal={this.toggleModal} />
         <Modal show={this.state.showModal} />
       </div>
