@@ -1,6 +1,6 @@
 ## Lift Igniter
 
-Live version currently hosted at [Playlist Converter](https://claytonhart.github.io/rooster-grin/)
+Live version currently hosted at [Lift Igniter](https://claytonhart.github.io/rooster-grin/)
 
 ### What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
 
