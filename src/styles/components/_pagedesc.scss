@@ -4,12 +4,25 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
+  @media screen and (max-width: 1050px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
 }
 
 .page-item {
   display: flex;
   width: 45%;
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    margin: 1rem auto;
+  }
 
   &__icon {
     padding: 1rem;

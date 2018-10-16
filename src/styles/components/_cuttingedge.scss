@@ -2,6 +2,15 @@
   width: 60%;
   margin: 6rem auto;
 
+  @media screen and (max-width: 1050px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+
   &__header {
     color: $color-blue-dark;
     font-size: 2.8rem;
@@ -15,6 +24,10 @@
 
     &--bottom {
       margin-top: 10rem;
+
+      @media screen and (max-width: 600px) {
+        margin-top: 5rem;
+      }
     }
   }
 }
@@ -24,11 +37,21 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
   &__desc {
     width: 50%;
     font-size: 1.6rem;
     line-height: 2.2rem;
     color: $color-blue-dark;
+
+    @media screen and (max-width: 600px) {
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      width: 90%;
+    }
   }
 
   &__btn-container {
@@ -36,12 +59,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 600px) {
+      margin: 0 auto;
+      width: 90%;
+    }
   }
 }
 
 .cutting-edge-stats {
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .cutting-edge-stats-item {
@@ -51,15 +83,37 @@
   text-align: center;
   margin-top: 2rem;
 
+  @media screen and (max-width: 600px) {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
   &__header {
     font-size: 5.5rem;
     letter-spacing: 2px;
     font-weight: bold;
     color: $color-blue-dark;
+    transition: 0.2s all;
+
+    @media screen and (max-width: 850px) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+    }
+
+    &:hover {
+      transform: translateY(-1rem);
+    }
   }
 
   &__desc {
     font-size: 1.6rem;
     color: $color-orange;
+
+    @media screen and (max-width: 850px) {
+      font-size: 1.3rem;
+    }
   }
 }
