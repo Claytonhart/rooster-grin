@@ -5,11 +5,21 @@ import PageDesc from "./components/PageDesc";
 import PersonalizeEverything from "./components/PersonalizeEverything";
 import CuttingEdge from "./components/CuttingEdge";
 import CheckerBoard from "./components/CheckerBoard";
+import Modal from "./components/Modal";
+import ModalButton from "./components/ModalButton";
 
 import img1 from "./assets/img1.jpg";
 import img2 from "./assets/img2.jpg";
 
 class App extends Component {
+  state = {
+    showModal: false
+  };
+
+  toggleModal = () => {
+    this.setState({ showModal: !this.state.showModal });
+  };
+
   render() {
     return (
       <div>
@@ -20,6 +30,8 @@ class App extends Component {
         <CuttingEdge />
         <CheckerBoard side="right" img={img1} />
         <CheckerBoard side="left" img={img2} />
+        <ModalButton toggleModal={this.toggleModal} />
+        <Modal show={this.state.showModal} />
       </div>
     );
   }

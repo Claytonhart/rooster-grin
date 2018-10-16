@@ -1,0 +1,82 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+
+  &__header {
+    font-size: 2.8rem;
+    font-weight: normal;
+    color: $color-orange-light;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+.modal-body {
+  position: fixed;
+  max-width: 60rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+
+  & label {
+    padding: 1rem;
+  }
+  & input {
+    // width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+  }
+
+  & textarea {
+    border-radius: 5px;
+  }
+
+  &__button-container {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  &__half-width {
+    display: inline-flex;
+    flex-direction: column;
+
+    &:not(:last-of-type) {
+      margin-right: 2.5rem;
+    }
+  }
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal-hide {
+  display: none;
+}
+
+.modal-show-button {
+  background-color: $color-orange;
+  width: 5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  position: fixed;
+  right: 0;
+  top: 40%;
+  z-index: 999;
+  cursor: pointer;
+}
